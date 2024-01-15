@@ -1594,8 +1594,8 @@ body::after {
 }
 
 .swiper-pagination-bullet {
-  width: var(--swiper-pagination-bullet-width, var(--swiper-pagination-bullet-size, 10px));
-  height: var(--swiper-pagination-bullet-height, var(--swiper-pagination-bullet-size, 10px));
+  width: var(--swiper-pagination-bullet-width, var(--swiper-pagination-bullet-size, 16px));
+  height: var(--swiper-pagination-bullet-height, var(--swiper-pagination-bullet-size, 16px));
   display: inline-block;
   border-radius: 50%;
   background: rgba(255, 255, 255, 0.7);
