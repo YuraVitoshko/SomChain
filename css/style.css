@@ -2600,6 +2600,10 @@ button.swiper-pagination-bullet {
     transition: all 0.8s ease 0.3s;
   }
 
+  .our-mission::after {
+    display: none;
+  }
+
   .item-our-mission--padding {
     padding: 0.9375rem;
   }
