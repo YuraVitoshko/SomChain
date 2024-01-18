@@ -6,7 +6,7 @@
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20240117201848">
+	<link rel="stylesheet" href="css/style.min.css?_v=20240118182539">
 	<link rel="shortcut icon" href="favicon.ico">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -20,17 +20,18 @@
 				<div class="header__menu menu">
 					<nav class="menu__body">
 						<ul class="menu__list">
-							<li class="menu__item menu__item--mobile-none"><a href="#" class="menu__link">Team</a></li>
-							<li class="menu__item menu__item--pc-none"><a href="#" class="menu__link">About us</a></li>
-							<li class="menu__item menu__item--pc-none"><a href="#" class="menu__link">Development directions</a></li>
-							<li class="menu__item"><a href="#" class="menu__link">Products</a></li>
-							<li class="menu__item menu__item--pc-none"><a href="#" class="menu__link">F.A.Q.</a></li>
-							<li class="menu__item"><a href="#" class="menu__link">Contact us</a></li>
-							<li class="menu__item menu__item--pc-none"><a href="#" class="menu__link">Discuss your project</a></li>
+							<li class="menu__item menu__item--pc-none"><a href="#" data-goto=".about" class="menu__link">About us</a></li>
+							<li class="menu__item"><a href="#" data-goto=".our-mission" class="menu__link">Team</a></li>
+							<li class="menu__item menu__item--pc-none"><a href="#" data-goto=".technology-stack" class="menu__link">Technology stack</a></li>
+							<li class="menu__item menu__item--pc-none"><a href="#" data-goto=".development-directions" class="menu__link">Development directions</a></li>
+							<li class="menu__item"><a href="#" data-goto=".products" class="menu__link">Products</a></li>
+							<li class="menu__item menu__item--pc-none"><a href="#" data-goto=".faq" class="menu__link">F.A.Q.</a></li>
+							<li class="menu__item menu__item--pc-none"><a href="#" data-goto=".faq__button" class="menu__link">Discuss your project</a></li>
+							<li class="menu__item"><a href="#" data-goto=".footer" class="menu__link">Contact us</a></li>
 						</ul>
 					</nav>
 					<!-- <a href="#" class="menu__button button button--arrow"><span>Let’s talk</span></a> -->
-					<a href="#" data-popup="#popup" class="menu__button button">Contact us</a>
+					<a href="https://t.me/SomChain" target="_blank" class="menu__button button">Contact us</a>
 					<button type="button" class="menu__icon icon-menu"><span></span></button>
 				</div>
 			</div>
@@ -45,7 +46,7 @@
 							<div class="hero__item">FUTURE</div>
 						</div>
 						<div class="hero__text">Blockchain development for your business by SomChain</div>
-						<a href="#" class="hero__button button button--arrow">Let’s work</a>
+						<a href="https://t.me/SomChain" target="_blank" class="hero__button button button--arrow">Let’s work</a>
 					</div>
 					<div class="hero__image">
 						<picture><source srcset="img/hero-image.webp" type="image/webp"><img src="img/hero-image.png" alt="Image"></picture>
@@ -57,7 +58,7 @@
 						</div> -->
 				</div>
 			</section>
-			<div class="about">
+			<div data-watch="navigator" class="about">
 				<div class="about__container">
 					<div class="about__text">
 						<p data-watch data-watch-once data-watch-treshold="0.2">Greetings! Welcome to our website, where we share our success and show new opportunities in a world of technology ! We
@@ -74,14 +75,14 @@
 					</div>
 				</div>
 			</div>
-			<section class="our-mission">
+			<section data-watch="navigator" class="our-mission">
 				<div class="our-mission__container">
 					<div data-watch data-watch-once data-watch-treshold="0.2" class="our-mission__header">
 						<h2 class="our-mission__title title-our-mission">
 							<div class="title-our-mission__item">Partnership -</div>
 							<div class="title-our-mission__item">our mission</div>
 						</h2>
-						<a href="#" class="our-mission__button button button--arrow">Let’s work</a>
+						<a href="https://t.me/SomChain" target="_blank" class="our-mission__button button button--arrow">Let’s work</a>
 					</div>
 					<div class="our-mission__items">
 						<div data-watch data-watch-once data-watch-treshold="0.3" class="our-mission__item item-our-mission item-our-mission--padding">
@@ -136,7 +137,7 @@
 					</div>
 				</div>
 			</section>
-			<section class="technology-stack">
+			<section data-watch="navigator" class="technology-stack">
 				<div class="technology-stack__container">
 					<h3 data-watch data-watch-once data-watch-treshold="0.2" class="technology-stack__title">Technology stack</h3>
 					<div data-spollers data-one-spoller class="technology-stack__spollers technology-stack-spollers">
@@ -206,7 +207,7 @@
 					</div>
 				</div>
 			</section>
-			<section class="development-directions">
+			<section data-watch="navigator" class="development-directions">
 				<div class="development-directions__container">
 					<h3 data-watch data-watch-once data-watch-treshold="0.2" class="development-directions__header-title">development directions</h3>
 					<div class="development-directions__body">
@@ -292,7 +293,7 @@
 					</div>
 				</div>
 			</section>
-			<section class="products">
+			<section data-watch="navigator" class="products">
 				<div class="products__container">
 					<h2 data-watch data-watch-once data-watch-treshold="0.3" class="products__title">products</h2>
 					<div class="products__slider swiper">
@@ -354,7 +355,7 @@
 					<div class="products__swiper-pagination swiper-pagination"></div>
 				</div>
 			</section>
-			<section class="faq">
+			<section data-watch="navigator" class="faq">
 				<div class="faq__container">
 					<h2 data-watch data-watch-once data-watch-treshold="0.3" class="faq__title">f.a.q</h2>
 					<div class="faq__content">
@@ -403,7 +404,7 @@
 								</div>
 							</details>
 						</div>
-						<a data-watch data-watch-once data-watch-treshold="0.2" href="#" class="faq__button button button--arrow">Discuss your project</a>
+						<a data-watch="navigator" data-watch data-watch-once data-watch-treshold="0.2" href="https://t.me/SomChain" target="_blank" class="faq__button button button--arrow">Discuss your project</a>
 					</div>
 				</div>
 			</section>
@@ -416,7 +417,7 @@
 				</li>
 			</ul>
 		</main>
-		<footer class="footer">
+		<footer data-watch="navigator" class="footer">
 			<div class="footer__container">
 				<div class="footer__contacts contacts-footer">
 					<h5 data-watch data-watch-once data-watch-treshold="0.2" class="contacts-footer__title">Contact us</h5>
@@ -513,7 +514,7 @@
 		</div>
 	</div>
 
-	<script src="js/app.min.js?_v=20240117201848"></script>
+	<script src="js/app.min.js?_v=20240118182539"></script>
 </body>
 
 </html>
