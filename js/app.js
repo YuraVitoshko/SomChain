@@ -87,10 +87,10 @@
         if (target.hidden) return _slideDown(target, duration); else return _slideUp(target, duration);
     };
     let bodyLockStatus = true;
-    let bodyLockToggle = (delay = 500) => {
+    let bodyLockToggle = (delay = 0) => {
         if (document.documentElement.classList.contains("lock")) bodyUnlock(delay); else bodyLock(delay);
     };
-    let bodyUnlock = (delay = 500) => {
+    let bodyUnlock = (delay = 0) => {
         let body = document.querySelector("body");
         if (bodyLockStatus) {
             let lock_padding = document.querySelectorAll("[data-lp]");
@@ -108,7 +108,7 @@
             }), delay);
         }
     };
-    let bodyLock = (delay = 500) => {
+    let bodyLock = (delay = 0) => {
         let body = document.querySelector("body");
         if (bodyLockStatus) {
             let lock_padding = document.querySelectorAll("[data-lp]");
@@ -4321,6 +4321,7 @@
             slidesPerView: "auto",
             speed: 800,
             centeredSlides: true,
+            autoHeight: true,
             loop: true,
             pagination: {
                 el: ".products__swiper-pagination",
@@ -4524,7 +4525,7 @@
             }));
         }
     }), 0);
-    window["FLS"] = true;
+    window["FLS"] = false;
     isWebp();
     menuInit();
     spollers();

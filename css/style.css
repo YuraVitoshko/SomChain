@@ -252,9 +252,8 @@ body::after {
   position: fixed;
   top: 0;
   left: 0;
-  bottom: 0;
-  right: 0;
-  padding: 2.5rem;
+  width: 100%;
+  height: 100%;
   -webkit-transition: visibility 0.8s ease 0s;
   transition: visibility 0.8s ease 0s;
   visibility: hidden;
@@ -270,9 +269,7 @@ body::after {
 
 .popup_show .popup__content {
   visibility: visible;
-  -webkit-transform: scale(1);
-      -ms-transform: scale(1);
-          transform: scale(1);
+  opacity: 1;
 }
 
 .popup__wrapper {
@@ -283,6 +280,9 @@ body::after {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -291,27 +291,17 @@ body::after {
       -ms-flex: 1 1 auto;
           flex: 1 1 auto;
   width: 100%;
-  display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  align-items: center;
 }
 
 .popup__content {
   visibility: hidden;
-  -webkit-transform: scale(0);
-      -ms-transform: scale(0);
-          transform: scale(0);
-  -webkit-transition: -webkit-transform 0.3s ease 0s;
-  transition: -webkit-transform 0.3s ease 0s;
-  transition: transform 0.3s ease 0s;
-  transition: transform 0.3s ease 0s, -webkit-transform 0.3s ease 0s;
+  opacity: 0;
+  -webkit-transition: opacity 0.3s ease 0s;
+  transition: opacity 0.3s ease 0s;
   background-color: #eee;
   padding: 3.75rem;
   width: 100%;
   background-color: #1A1A1E;
-  max-width: 75rem;
 }
 
 .lock .popup__content {
@@ -357,7 +347,8 @@ body::after {
   display: -ms-grid;
   display: grid;
   gap: 1.5625rem;
-  grid-template-columns: repeat(auto-fit, minmax(17.5rem, 1fr));
+  -ms-grid-columns: (1fr)[3];
+  grid-template-columns: repeat(3, 1fr);
   margin-bottom: 3.125rem;
 }
 
@@ -782,6 +773,10 @@ body::after {
   display: -ms-grid;
   display: grid;
   gap: 0.9375rem;
+}
+
+.lock .social-fixed-block {
+  right: 2.0625rem;
 }
 
 .social-fixed-block__link {
@@ -2130,6 +2125,11 @@ button.swiper-pagination-bullet {
 }
 
 @media (max-width: 61.99875em) {
+  .popup__images {
+    -ms-grid-columns: (1fr)[2];
+    grid-template-columns: repeat(2, 1fr);
+  }
+
   .contacts-footer {
     -ms-grid-columns: auto;
     grid-template-columns: auto;
@@ -2231,6 +2231,8 @@ button.swiper-pagination-bullet {
 
   .popup__images {
     gap: 0.9375rem;
+    -ms-grid-columns: auto;
+    grid-template-columns: auto;
   }
 
   .header__logo {

@@ -6,7 +6,7 @@
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20240122191636">
+	<link rel="stylesheet" href="css/style.min.css?_v=20240123175028">
 	<link rel="shortcut icon" href="favicon.ico">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,7 +14,7 @@
 
 <body>
 	<div class="wrapper">
-		<header class="header">
+		<header data-lp class="header">
 			<div class="header__container">
 				<div class="header__logo"><img src="img/logo.svg" alt="Logo"></div>
 				<div class="header__menu menu">
@@ -54,11 +54,6 @@
 						<div class="hero__text">Blockchain development for your business by SomChain</div>
 						<a href="https://t.me/SomChain" target="_blank" class="hero__button button button--arrow">Let’s work</a>
 					</div>
-					<!-- <div class="video__box">
-							<video class="video__item" loop autoplay playsinline>
-								<source src="img/hero-animation-3.mp4" type="video/mp4">
-							</video>
-						</div> -->
 				</div>
 			</section>
 			<div data-watch="navigator" class="about">
@@ -301,7 +296,7 @@
 					<h2 data-watch data-watch-once data-watch-treshold="0.3" class="products__title">products</h2>
 					<div class="products__slider swiper">
 						<div class="products__wrapper swiper-wrapper">
-							<a href="#" data-popup="#popup-nft" class="products__slide swiper-slide">
+							<a href="#" data-popup="#popup-nft-marketplace" class="products__slide swiper-slide">
 								<div class="products__image">
 									<picture><source srcset="img/products/01.webp" type="image/webp"><img src="img/products/01.jpg" alt="Image"></picture>
 								</div>
@@ -309,7 +304,7 @@
 								<div class="products__text">An NFT marketplace is an online platform where users can buy, sell, and trade non-fungible tokens (NFTs), which
 									represent unique digital or physical assets such as art, collectibles, and virtual real estate.</div>
 							</a>
-							<a href="#" data-popup="#popup-cryptocurrency" class="products__slide swiper-slide">
+							<a href="#" data-popup="#popup-cryptocurrency-exchange" class="products__slide swiper-slide">
 								<div class="products__image">
 									<picture><source srcset="img/products/02.webp" type="image/webp"><img src="img/products/02.jpg" alt="Image"></picture>
 								</div>
@@ -321,44 +316,84 @@
 								<div class="products__image">
 									<picture><source srcset="img/products/03.webp" type="image/webp"><img src="img/products/03.jpg" alt="Image"></picture>
 								</div>
-								<div class="products__name">Nft games</div>
+								<div class="products__name">Nft game SomChain</div>
 								<div class="products__text">NFT games are video games that incorporate non-fungible tokens, allowing players to own, trade, and utilize unique
 									in-game items or characters as digital assets.</div>
 							</a>
-							<a href="#" data-popup="#popup-nft-platform" class="products__slide swiper-slide">
+							<a href="#" data-popup="#popup-social-mobile-nft-platform" class="products__slide swiper-slide">
 								<div class="products__image">
 									<picture><source srcset="img/products/04.webp" type="image/webp"><img src="img/products/04.jpg" alt="Image"></picture>
 								</div>
 								<div class="products__name">Social mobile NFT platform</div>
 								<div class="products__text">A hybrid mobile app NFT platform with elements of a social network and the ability to tokenize your own media.</div>
 							</a>
-							<a href="#" data-popup="#popup-individual" class="products__slide swiper-slide">
+							<a href="#" data-popup="#popup-blockchain-referral-program" class="products__slide swiper-slide">
 								<div class="products__image">
 									<picture><source srcset="img/products/05.webp" type="image/webp"><img src="img/products/05.jpg" alt="Image"></picture>
 								</div>
-								<div class="products__name">Individual blockchain</div>
-								<div class="products__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo officiis molestias quos, blanditiis dolorem iure consectetur ratione? Harum impedit quam, esse officiis aliquam ab voluptatum.</div>
+								<div class="products__name">Blockchain referral program</div>
+								<div class="products__text">An individual blockchain is a decentralized ledger technology that allows users to create and maintain their own
+									blockchain networks for specific purposes, enabling customization and control over transactions and data.</div>
 							</a>
 							<a href="#" data-popup="#popup-wallets" class="products__slide swiper-slide">
 								<div class="products__image">
 									<picture><source srcset="img/products/06.webp" type="image/webp"><img src="img/products/06.jpg" alt="Image"></picture>
 								</div>
 								<div class="products__name">Crypto wallets</div>
-								<div class="products__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo officiis molestias quos, blanditiis dolorem iure consectetur ratione? Harum impedit quam, esse officiis aliquam ab voluptatum.</div>
+								<div class="products__text">Custodial wallets store users' cryptocurrency keys and funds on behalf of the user, offering convenience but also
+									relying on a third party for security, while non-custodial wallets give users full control over their keys and assets.</div>
 							</a>
-							<a href="#" data-popup="#popup-smart" class="products__slide swiper-slide">
+							<a href="#" data-popup="#popup-social-network-nftgram" class="products__slide swiper-slide">
 								<div class="products__image">
 									<picture><source srcset="img/products/08.webp" type="image/webp"><img src="img/products/08.jpg" alt="Image"></picture>
 								</div>
-								<div class="products__name">Social network nft gram</div>
+								<div class="products__name">Social network nftgram</div>
 								<div class="products__text">Innovative hybrid of NFT marketplace and Instagram.</div>
 							</a>
-							<a href="#" data-popup="#popup-network" class="products__slide swiper-slide">
+							<a href="#" data-popup="#popup-smart-contract" class="products__slide swiper-slide">
 								<div class="products__image">
 									<picture><source srcset="img/products/07.webp" type="image/webp"><img src="img/products/07.jpg" alt="Image"></picture>
 								</div>
-								<div class="products__name">Smart contact</div>
-								<div class="products__text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo officiis molestias quos, blanditiis dolorem iure consectetur ratione? Harum impedit quam, esse officiis aliquam ab voluptatum.</div>
+								<div class="products__name">Smart contract</div>
+								<div class="products__text">Smart contracts are self-executing contracts with predefined rules and conditions that automatically execute and enforce
+									agreements when specific conditions are met, often running on blockchain networks.</div>
+							</a>
+							<a href="#" data-popup="#popup-nft-card-game" class="products__slide swiper-slide">
+								<div class="products__image">
+									<picture><source srcset="img/products/09.webp" type="image/webp"><img src="img/products/09.jpg" alt="Image"></picture>
+								</div>
+								<div class="products__name">NFT card game</div>
+								<div class="products__text">NFT games are video games that incorporate non-fungible tokens, allowing players to own, trade, and utilize unique
+									in-game items or characters as digital assets.</div>
+							</a>
+							<a href="#" data-popup="#popup-nft-tinder" class="products__slide swiper-slide">
+								<div class="products__image">
+									<picture><source srcset="img/products/10.webp" type="image/webp"><img src="img/products/10.jpg" alt="Image"></picture>
+								</div>
+								<div class="products__name">NFT tinder</div>
+								<div class="products__text">NFT auction with the possibility to vote for an object by swiping.</div>
+							</a>
+							<a href="#" data-popup="#popup-social-nft-platform" class="products__slide swiper-slide">
+								<div class="products__image">
+									<picture><source srcset="img/products/11.webp" type="image/webp"><img src="img/products/11.jpg" alt="Image"></picture>
+								</div>
+								<div class="products__name">SOCIAL NFT PLATFORM</div>
+								<div class="products__text">A hybrid NFT platform with elements of a social network and the ability to tokenize your own media.</div>
+							</a>
+							<a href="#" data-popup="#popup-custom-block-explorer" class="products__slide swiper-slide">
+								<div class="products__image">
+									<picture><source srcset="img/products/12.webp" type="image/webp"><img src="img/products/12.jpg" alt="Image"></picture>
+								</div>
+								<div class="products__name">CUSTOM BLOCK EXPLORER</div>
+								<div class="products__text">A typical convenient block explorer that can be easily configured for any cryptocurrency.</div>
+							</a>
+							<a href="#" data-popup="#popup-forest-nft-game" class="products__slide swiper-slide">
+								<div class="products__image">
+									<picture><source srcset="img/products/13.webp" type="image/webp"><img src="img/products/13.jpg" alt="Image"></picture>
+								</div>
+								<div class="products__name">forest nft game</div>
+								<div class="products__text">An interesting NFT game with the opportunity to improve your heroes and receive a reward for this. Great as a spin-off
+									for large product networks.</div>
 							</a>
 						</div>
 					</div>
@@ -477,12 +512,8 @@
 				</div>
 			</div>
 		</footer>
-		<!-- <footer class="footer">
-	<div class="footer__container">
 	</div>
-</footer> -->
-	</div>
-	<div id="popup-nft" aria-hidden="true" class="popup">
+	<div id="popup-nft-marketplace" aria-hidden="true" class="popup">
 		<div class="popup__wrapper">
 			<div class="popup__content">
 				<div class="popup__top">
@@ -512,11 +543,13 @@
 						</div>
 					</div>
 					<div class="popup__images">
-						<div class="popup__image"><picture><source srcset="img/products/nft-marketplace/artworks-scaled.webp" type="image/webp"><img src="img/products/nft-marketplace/artworks-scaled.jpg" alt="Image"></picture></div>
-						<div class="popup__image"><picture><source srcset="img/products/nft-marketplace/main-scaled.webp" type="image/webp"><img src="img/products/nft-marketplace/main-scaled.jpg" alt="Image"></picture></div>
-						<div class="popup__image"><picture><source srcset="img/products/nft-marketplace/create-page-fixed-price-scaled.webp" type="image/webp"><img src="img/products/nft-marketplace/create-page-fixed-price-scaled.jpg" alt="Image"></picture></div>
-						<div class="popup__image"><picture><source srcset="img/products/nft-marketplace/sign-in-scaled.webp" type="image/webp"><img src="img/products/nft-marketplace/sign-in-scaled.jpg" alt="Image"></picture></div>
-						<div class="popup__image"><picture><source srcset="img/products/nft-marketplace/token-page-overview-scaled.webp" type="image/webp"><img src="img/products/nft-marketplace/token-page-overview-scaled.jpg" alt="Image"></picture></div>
+						<div class="popup__image"><picture><source srcset="img/products/nft-marketplace/01.webp" type="image/webp"><img src="img/products/nft-marketplace/01.png" alt="Image"></picture></div>
+						<div class="popup__image"><picture><source srcset="img/products/nft-marketplace/02.webp" type="image/webp"><img src="img/products/nft-marketplace/02.jpg" alt="Image"></picture></div>
+						<div class="popup__image"><picture><source srcset="img/products/nft-marketplace/03.webp" type="image/webp"><img src="img/products/nft-marketplace/03.jpg" alt="Image"></picture></div>
+						<div class="popup__image"><picture><source srcset="img/products/nft-marketplace/04.webp" type="image/webp"><img src="img/products/nft-marketplace/04.jpg" alt="Image"></picture></div>
+						<div class="popup__image"><picture><source srcset="img/products/nft-marketplace/05.webp" type="image/webp"><img src="img/products/nft-marketplace/05.jpg" alt="Image"></picture></div>
+						<div class="popup__image"><picture><source srcset="img/products/nft-marketplace/06.webp" type="image/webp"><img src="img/products/nft-marketplace/06.jpg" alt="Image"></picture></div>
+						<div class="popup__image"><picture><source srcset="img/products/nft-marketplace/07.webp" type="image/webp"><img src="img/products/nft-marketplace/07.jpg" alt="Image"></picture></div>
 					</div>
 				</div>
 				<a href="https://t.me/SomChain" target="_blank" class="popup__button button button--arrow ">Discuss your project</a>
@@ -524,7 +557,7 @@
 		</div>
 	</div>
 
-	<div id="popup-cryptocurrency" aria-hidden="true" class="popup">
+	<div id="popup-cryptocurrency-exchange" aria-hidden="true" class="popup">
 		<div class="popup__wrapper">
 			<div class="popup__content">
 				<div class="popup__top">
@@ -557,16 +590,13 @@
 						</div>
 					</div>
 					<div class="popup__images">
-						<div class="popup__image"><picture><source srcset="img/products/cryptocurrency-exchange/orders1-scaled.webp" type="image/webp"><img src="img/products/cryptocurrency-exchange/orders1-scaled.jpg" alt="Image"></picture></div>
-						<div class="popup__image"><picture><source srcset="img/products/cryptocurrency-exchange/trade-fullscreen.webp" type="image/webp"><img src="img/products/cryptocurrency-exchange/trade-fullscreen.jpg" alt="Image"></picture></div>
-						<div class="popup__image"><picture><source srcset="img/products/cryptocurrency-exchange/trade-classic-2-scaled.webp" type="image/webp"><img src="img/products/cryptocurrency-exchange/trade-classic-2-scaled.jpg" alt="Image"></picture></div>
-						<div class="popup__image"><picture><source srcset="img/products/cryptocurrency-exchange/balances-scaled.webp" type="image/webp"><img src="img/products/cryptocurrency-exchange/balances-scaled.jpg" alt="Image"></picture></div>
-						<div class="popup__image"><picture><source srcset="img/products/cryptocurrency-exchange/deposit-scaled.webp" type="image/webp"><img src="img/products/cryptocurrency-exchange/deposit-scaled.jpg" alt="Image"></picture></div>
-						<div class="popup__image"><picture><source srcset="img/products/cryptocurrency-exchange/withdraw-scaled.webp" type="image/webp"><img src="img/products/cryptocurrency-exchange/withdraw-scaled.jpg" alt="Image"></picture></div>
-						<div class="popup__image"><picture><source srcset="img/products/cryptocurrency-exchange/trade.webp" type="image/webp"><img src="img/products/cryptocurrency-exchange/trade.jpg" alt="Image"></picture></div>
-						<div class="popup__image"><picture><source srcset="img/products/cryptocurrency-exchange/orders.webp" type="image/webp"><img src="img/products/cryptocurrency-exchange/orders.jpg" alt="Image"></picture></div>
-						<div class="popup__image"><picture><source srcset="img/products/cryptocurrency-exchange/pairs.webp" type="image/webp"><img src="img/products/cryptocurrency-exchange/pairs.jpg" alt="Image"></picture></div>
-						<div class="popup__image"><picture><source srcset="img/products/cryptocurrency-exchange/buy-btc.webp" type="image/webp"><img src="img/products/cryptocurrency-exchange/buy-btc.jpg" alt="Image"></picture></div>
+						<div class="popup__image"><picture><source srcset="img/products/cryptocurrency-exchange/01.webp" type="image/webp"><img src="img/products/cryptocurrency-exchange/01.jpg" alt="Image"></picture></div>
+						<div class="popup__image"><picture><source srcset="img/products/cryptocurrency-exchange/02.webp" type="image/webp"><img src="img/products/cryptocurrency-exchange/02.jpg" alt="Image"></picture></div>
+						<div class="popup__image"><picture><source srcset="img/products/cryptocurrency-exchange/03.webp" type="image/webp"><img src="img/products/cryptocurrency-exchange/03.jpg" alt="Image"></picture></div>
+						<div class="popup__image"><picture><source srcset="img/products/cryptocurrency-exchange/04.webp" type="image/webp"><img src="img/products/cryptocurrency-exchange/04.jpg" alt="Image"></picture></div>
+						<div class="popup__image"><picture><source srcset="img/products/cryptocurrency-exchange/05.webp" type="image/webp"><img src="img/products/cryptocurrency-exchange/05.jpg" alt="Image"></picture></div>
+						<div class="popup__image"><picture><source srcset="img/products/cryptocurrency-exchange/06.webp" type="image/webp"><img src="img/products/cryptocurrency-exchange/06.jpg" alt="Image"></picture></div>
+						<div class="popup__image"><picture><source srcset="img/products/cryptocurrency-exchange/07.webp" type="image/webp"><img src="img/products/cryptocurrency-exchange/07.jpg" alt="Image"></picture></div>
 					</div>
 				</div>
 				<a href="https://t.me/SomChain" target="_blank" class="popup__button button button--arrow ">Discuss your
@@ -578,7 +608,7 @@
 		<div class="popup__wrapper">
 			<div class="popup__content">
 				<div class="popup__top">
-					<h2 class="popup__title">NFT games somchain</h2>
+					<h2 class="popup__title">NFT game somchain</h2>
 					<button data-close type="button" class="popup__close">
 						<img src="img/icons/close.svg" alt="Close">
 					</button>
@@ -628,7 +658,7 @@
 		</div>
 	</div>
 
-	<div id="popup-nft-platform" aria-hidden="true" class="popup">
+	<div id="popup-social-mobile-nft-platform" aria-hidden="true" class="popup">
 		<div class="popup__wrapper">
 			<div class="popup__content">
 				<div class="popup__top">
@@ -657,12 +687,12 @@
 						</div>
 					</div>
 					<div class="popup__images">
-						<div class="popup__image"><picture><source srcset="img/products/social-mobile/01.webp" type="image/webp"><img src="img/products/social-mobile/01.jpg" alt="Image"></picture></div>
-						<div class="popup__image"><picture><source srcset="img/products/social-mobile/02.webp" type="image/webp"><img src="img/products/social-mobile/02.jpg" alt="Image"></picture></div>
-						<div class="popup__image"><picture><source srcset="img/products/social-mobile/03.webp" type="image/webp"><img src="img/products/social-mobile/03.jpg" alt="Image"></picture></div>
-						<div class="popup__image"><picture><source srcset="img/products/social-mobile/04.webp" type="image/webp"><img src="img/products/social-mobile/04.jpg" alt="Image"></picture></div>
-						<div class="popup__image"><picture><source srcset="img/products/social-mobile/05.webp" type="image/webp"><img src="img/products/social-mobile/05.jpg" alt="Image"></picture></div>
-						<div class="popup__image"><picture><source srcset="img/products/social-mobile/06.webp" type="image/webp"><img src="img/products/social-mobile/06.jpg" alt="Image"></picture></div>
+						<div class="popup__image"><picture><source srcset="img/products/social-mobile-nft-platform/01.webp" type="image/webp"><img src="img/products/social-mobile-nft-platform/01.jpg" alt="Image"></picture></div>
+						<div class="popup__image"><picture><source srcset="img/products/social-mobile-nft-platform/02.webp" type="image/webp"><img src="img/products/social-mobile-nft-platform/02.jpg" alt="Image"></picture></div>
+						<div class="popup__image"><picture><source srcset="img/products/social-mobile-nft-platform/03.webp" type="image/webp"><img src="img/products/social-mobile-nft-platform/03.jpg" alt="Image"></picture></div>
+						<div class="popup__image"><picture><source srcset="img/products/social-mobile-nft-platform/04.webp" type="image/webp"><img src="img/products/social-mobile-nft-platform/04.jpg" alt="Image"></picture></div>
+						<div class="popup__image"><picture><source srcset="img/products/social-mobile-nft-platform/05.webp" type="image/webp"><img src="img/products/social-mobile-nft-platform/05.jpg" alt="Image"></picture></div>
+						<div class="popup__image"><picture><source srcset="img/products/social-mobile-nft-platform/06.webp" type="image/webp"><img src="img/products/social-mobile-nft-platform/06.jpg" alt="Image"></picture></div>
 					</div>
 				</div>
 				<a href="https://t.me/SomChain" target="_blank" class="popup__button button button--arrow ">Discuss your project</a>
@@ -670,7 +700,7 @@
 		</div>
 	</div>
 
-	<div id="popup-individual" aria-hidden="true" class="popup">
+	<div id="popup-blockchain-referral-program" aria-hidden="true" class="popup">
 		<div class="popup__wrapper">
 			<div class="popup__content">
 				<div class="popup__top">
@@ -701,12 +731,12 @@
 						</div>
 					</div>
 					<div class="popup__images">
-						<div class="popup__image"><picture><source srcset="img/products/individual/01.webp" type="image/webp"><img src="img/products/individual/01.jpeg" alt="Image"></picture></div>
-						<div class="popup__image"><picture><source srcset="img/products/individual/02.webp" type="image/webp"><img src="img/products/individual/02.jpeg" alt="Image"></picture></div>
-						<div class="popup__image"><picture><source srcset="img/products/individual/03.webp" type="image/webp"><img src="img/products/individual/03.jpeg" alt="Image"></picture></div>
-						<div class="popup__image"><picture><source srcset="img/products/individual/04.webp" type="image/webp"><img src="img/products/individual/04.jpeg" alt="Image"></picture></div>
-						<div class="popup__image"><picture><source srcset="img/products/individual/05.webp" type="image/webp"><img src="img/products/individual/05.jpeg" alt="Image"></picture></div>
-						<div class="popup__image"><picture><source srcset="img/products/individual/06.webp" type="image/webp"><img src="img/products/individual/06.jpeg" alt="Image"></picture></div>
+						<div class="popup__image"><picture><source srcset="img/products/blockchain-referral-program/01.webp" type="image/webp"><img src="img/products/blockchain-referral-program/01.jpeg" alt="Image"></picture></div>
+						<div class="popup__image"><picture><source srcset="img/products/blockchain-referral-program/02.webp" type="image/webp"><img src="img/products/blockchain-referral-program/02.jpeg" alt="Image"></picture></div>
+						<div class="popup__image"><picture><source srcset="img/products/blockchain-referral-program/03.webp" type="image/webp"><img src="img/products/blockchain-referral-program/03.jpeg" alt="Image"></picture></div>
+						<div class="popup__image"><picture><source srcset="img/products/blockchain-referral-program/04.webp" type="image/webp"><img src="img/products/blockchain-referral-program/04.jpeg" alt="Image"></picture></div>
+						<div class="popup__image"><picture><source srcset="img/products/blockchain-referral-program/05.webp" type="image/webp"><img src="img/products/blockchain-referral-program/05.jpeg" alt="Image"></picture></div>
+						<div class="popup__image"><picture><source srcset="img/products/blockchain-referral-program/06.webp" type="image/webp"><img src="img/products/blockchain-referral-program/06.jpeg" alt="Image"></picture></div>
 					</div>
 				</div>
 				<a href="https://t.me/SomChain" target="_blank" class="popup__button button button--arrow ">Discuss your project</a>
@@ -733,18 +763,17 @@
 							<div class="column-popup__title">Technology</div>
 							<ul class="column-popup__items">
 								<li class="column-popup__item item-column-popup">Java</li>
-								<li class="column-popup__item item-column-popup">MySQL</li>
-								<li class="column-popup__item item-column-popup">Solidity</li>
-								<li class="column-popup__item item-column-popup">Vue3</li>
+								<li class="column-popup__item item-column-popup">Vue</li>
+								<li class="column-popup__item item-column-popup">PostgreSQL</li>
+								<li class="column-popup__item item-column-popup">RabbitMQ</li>
 								<li class="column-popup__item item-column-popup">Jenkins</li>
 								<li class="column-popup__item item-column-popup">Docker</li>
 								<li class="column-popup__item item-column-popup">Html</li>
-								<li class="column-popup__item item-column-popup">Css3</li>
+								<li class="column-popup__item item-column-popup">Css</li>
 							</ul>
 						</div>
 					</div>
 					<div class="popup__images">
-						<div class="popup__image"><picture><source srcset="img/products/wallets/01.webp" type="image/webp"><img src="img/products/wallets/01.jpg" alt="Image"></picture></div>
 						<div class="popup__image"><picture><source srcset="img/products/wallets/02.webp" type="image/webp"><img src="img/products/wallets/02.jpg" alt="Image"></picture></div>
 						<div class="popup__image"><picture><source srcset="img/products/wallets/03.webp" type="image/webp"><img src="img/products/wallets/03.jpg" alt="Image"></picture></div>
 						<div class="popup__image"><picture><source srcset="img/products/wallets/04.webp" type="image/webp"><img src="img/products/wallets/04.jpg" alt="Image"></picture></div>
@@ -759,45 +788,7 @@
 		</div>
 	</div>
 
-	<div id="popup-smart" aria-hidden="true" class="popup">
-		<div class="popup__wrapper">
-			<div class="popup__content">
-				<div class="popup__top">
-					<h2 class="popup__title">Custodial, Non custodial Crypto wallets</h2>
-					<button data-close type="button" class="popup__close">
-						<img src="img/icons/close.svg" alt="Close">
-					</button>
-				</div>
-				<div class="popup__body">
-					<div class="popup__columns">
-						<div class="popup__column column-popup">
-							<div class="column-popup__title">Description</div>
-							<div class="column-popup__text">NFT marketplace with lots of customization. Multichain and auctions included.</div>
-						</div>
-						<div class="popup__column column-popup">
-							<div class="column-popup__title">Technology</div>
-							<ul class="column-popup__items">
-								<li class="column-popup__item item-column-popup">Java</li>
-								<li class="column-popup__item item-column-popup">MySQL</li>
-								<li class="column-popup__item item-column-popup">Solidity</li>
-								<li class="column-popup__item item-column-popup">Vue3</li>
-								<li class="column-popup__item item-column-popup">Jenkins</li>
-								<li class="column-popup__item item-column-popup">Docker</li>
-								<li class="column-popup__item item-column-popup">Html</li>
-								<li class="column-popup__item item-column-popup">Css3</li>
-							</ul>
-						</div>
-					</div>
-					<div class="popup__images">
-						<div class="popup__image"><picture><source srcset="img/products/wallets/01.webp" type="image/webp"><img src="img/products/wallets/01.jpg" alt="Image"></picture></div>
-					</div>
-				</div>
-				<a href="https://t.me/SomChain" target="_blank" class="popup__button button button--arrow ">Discuss your project</a>
-			</div>
-		</div>
-	</div>
-
-	<div id="popup-network" aria-hidden="true" class="popup">
+	<div id="popup-social-network-nftgram" aria-hidden="true" class="popup">
 		<div class="popup__wrapper">
 			<div class="popup__content">
 				<div class="popup__top">
@@ -815,10 +806,10 @@
 						<div class="popup__column column-popup">
 							<div class="column-popup__title">Technology</div>
 							<ul class="column-popup__items">
-								<li class="column-popup__item item-column-popup">React Native</li>
 								<li class="column-popup__item item-column-popup">Java</li>
-								<li class="column-popup__item item-column-popup">Solidity</li>
+								<li class="column-popup__item item-column-popup">React Native</li>
 								<li class="column-popup__item item-column-popup">PostgreSQL</li>
+								<li class="column-popup__item item-column-popup">Solidity</li>
 								<li class="column-popup__item item-column-popup">Jenkins</li>
 								<li class="column-popup__item item-column-popup">Docker</li>
 								<li class="column-popup__item item-column-popup">RabbitMQ</li>
@@ -826,12 +817,12 @@
 						</div>
 					</div>
 					<div class="popup__images">
-						<div class="popup__image"><picture><source srcset="img/products/network/01.webp" type="image/webp"><img src="img/products/network/01.jpg" alt="Image"></picture></div>
-						<div class="popup__image"><picture><source srcset="img/products/network/02.webp" type="image/webp"><img src="img/products/network/02.png" alt="Image"></picture></div>
-						<div class="popup__image"><picture><source srcset="img/products/network/03.webp" type="image/webp"><img src="img/products/network/03.png" alt="Image"></picture></div>
-						<div class="popup__image"><picture><source srcset="img/products/network/04.webp" type="image/webp"><img src="img/products/network/04.png" alt="Image"></picture></div>
-						<div class="popup__image"><picture><source srcset="img/products/network/05.webp" type="image/webp"><img src="img/products/network/05.jpg" alt="Image"></picture></div>
-						<div class="popup__image"><picture><source srcset="img/products/network/06.webp" type="image/webp"><img src="img/products/network/06.jpg" alt="Image"></picture></div>
+						<div class="popup__image"><picture><source srcset="img/products/social-network-nftgram/01.webp" type="image/webp"><img src="img/products/social-network-nftgram/01.jpg" alt="Image"></picture></div>
+						<div class="popup__image"><picture><source srcset="img/products/social-network-nftgram/02.webp" type="image/webp"><img src="img/products/social-network-nftgram/02.png" alt="Image"></picture></div>
+						<div class="popup__image"><picture><source srcset="img/products/social-network-nftgram/03.webp" type="image/webp"><img src="img/products/social-network-nftgram/03.png" alt="Image"></picture></div>
+						<div class="popup__image"><picture><source srcset="img/products/social-network-nftgram/04.webp" type="image/webp"><img src="img/products/social-network-nftgram/04.png" alt="Image"></picture></div>
+						<div class="popup__image"><picture><source srcset="img/products/social-network-nftgram/05.webp" type="image/webp"><img src="img/products/social-network-nftgram/05.jpg" alt="Image"></picture></div>
+						<div class="popup__image"><picture><source srcset="img/products/social-network-nftgram/06.webp" type="image/webp"><img src="img/products/social-network-nftgram/06.jpg" alt="Image"></picture></div>
 					</div>
 				</div>
 				<a href="https://t.me/SomChain" target="_blank" class="popup__button button button--arrow ">Discuss your project</a>
@@ -839,7 +830,248 @@
 		</div>
 	</div>
 
-	<script src="js/app.min.js?_v=20240122191636"></script>
+	<div id="popup-smart-contract" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<div class="popup__top">
+					<h2 class="popup__title">Smart contract</h2>
+					<button data-close type="button" class="popup__close">
+						<img src="img/icons/close.svg" alt="Close">
+					</button>
+				</div>
+				<div class="popup__body">
+					<div class="popup__columns">
+						<div class="popup__column column-popup">
+							<div class="column-popup__title">Description</div>
+							<div class="column-popup__text">
+								<p>Smart contracts are executed on blockchain, which means that the terms are stored in a distributed database and cannot
+									be changed. Transactions are also processed on the blockchain, which automates payments and counterparties. Since the
+									emergence of the digital currency Ethereum, the creation and execution of smart contracts has been simplified, as
+									complex transactions can be programmed into the Ethereum protocol.</p>
+							</div>
+						</div>
+					</div>
+					<div class="popup__images">
+						<div class="popup__image"><picture><source srcset="img/products/smart-contract/01.webp" type="image/webp"><img src="img/products/smart-contract/01.jpg" alt="Image"></picture></div>
+					</div>
+				</div>
+				<a href="https://t.me/SomChain" target="_blank" class="popup__button button button--arrow ">Discuss your project</a>
+			</div>
+		</div>
+	</div>
+
+	<div id="popup-nft-card-game" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<div class="popup__top">
+					<h2 class="popup__title">NFT card game</h2>
+					<button data-close type="button" class="popup__close">
+						<img src="img/icons/close.svg" alt="Close">
+					</button>
+				</div>
+				<div class="popup__body">
+					<div class="popup__columns">
+						<div class="popup__column column-popup">
+							<div class="column-popup__title">Description</div>
+							<div class="column-popup__text">Very easy and fast NFT game.</div>
+						</div>
+						<div class="popup__column column-popup">
+							<div class="column-popup__title">Technology</div>
+							<ul class="column-popup__items">
+								<li class="column-popup__item item-column-popup">NFT</li>
+								<li class="column-popup__item item-column-popup">Solidity</li>
+								<li class="column-popup__item item-column-popup">Java</li>
+								<li class="column-popup__item item-column-popup">PostgreSQL</li>
+								<li class="column-popup__item item-column-popup">Redis</li>
+								<li class="column-popup__item item-column-popup">RabbitMQ</li>
+								<li class="column-popup__item item-column-popup">Docker</li>
+								<li class="column-popup__item item-column-popup">Jenkins</li>
+							</ul>
+						</div>
+					</div>
+					<div class="popup__images">
+						<div class="popup__image"><picture><source srcset="img/products/nft-card-game/01.webp" type="image/webp"><img src="img/products/nft-card-game/01.jpg" alt="Image"></picture></div>
+						<div class="popup__image"><picture><source srcset="img/products/nft-card-game/02.webp" type="image/webp"><img src="img/products/nft-card-game/02.png" alt="Image"></picture></div>
+						<div class="popup__image"><picture><source srcset="img/products/nft-card-game/03.webp" type="image/webp"><img src="img/products/nft-card-game/03.png" alt="Image"></picture></div>
+					</div>
+				</div>
+				<a href="https://t.me/SomChain" target="_blank" class="popup__button button button--arrow ">Discuss your project</a>
+			</div>
+		</div>
+	</div>
+
+	<div id="popup-nft-tinder" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<div class="popup__top">
+					<h2 class="popup__title">nft tinder</h2>
+					<button data-close type="button" class="popup__close">
+						<img src="img/icons/close.svg" alt="Close">
+					</button>
+				</div>
+				<div class="popup__body">
+					<div class="popup__columns">
+						<div class="popup__column column-popup">
+							<div class="column-popup__title">Description</div>
+							<div class="column-popup__text">
+								<p>NFT auction with the possibility to vote for an object by swiping.</p>
+							</div>
+						</div>
+						<div class="popup__column column-popup">
+							<div class="column-popup__title">Technology</div>
+							<ul class="column-popup__items">
+								<li class="column-popup__item item-column-popup">NFT</li>
+								<li class="column-popup__item item-column-popup">Java</li>
+								<li class="column-popup__item item-column-popup">Html</li>
+								<li class="column-popup__item item-column-popup">Css</li>
+								<li class="column-popup__item item-column-popup">Vue</li>
+								<li class="column-popup__item item-column-popup">Solidity</li>
+								<li class="column-popup__item item-column-popup">Docker</li>
+								<li class="column-popup__item item-column-popup">MySql</li>
+							</ul>
+						</div>
+					</div>
+					<div class="popup__images">
+						<div class="popup__image"><picture><source srcset="img/products/nft-tinder/01.webp" type="image/webp"><img src="img/products/nft-tinder/01.jpg" alt="Image"></picture></div>
+						<div class="popup__image"><picture><source srcset="img/products/nft-tinder/02.webp" type="image/webp"><img src="img/products/nft-tinder/02.jpg" alt="Image"></picture></div>
+						<div class="popup__image"><picture><source srcset="img/products/nft-tinder/03.webp" type="image/webp"><img src="img/products/nft-tinder/03.jpg" alt="Image"></picture></div>
+						<div class="popup__image"><picture><source srcset="img/products/nft-tinder/04.webp" type="image/webp"><img src="img/products/nft-tinder/04.jpg" alt="Image"></picture></div>
+						<div class="popup__image"><picture><source srcset="img/products/nft-tinder/05.webp" type="image/webp"><img src="img/products/nft-tinder/05.jpg" alt="Image"></picture></div>
+						<div class="popup__image"><picture><source srcset="img/products/nft-tinder/06.webp" type="image/webp"><img src="img/products/nft-tinder/06.jpg" alt="Image"></picture></div>
+					</div>
+				</div>
+				<a href="https://t.me/SomChain" target="_blank" class="popup__button button button--arrow ">Discuss your project</a>
+			</div>
+		</div>
+	</div>
+
+	<div id="popup-social-nft-platform" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<div class="popup__top">
+					<h2 class="popup__title">SOCIAL NFT PLATFORM</h2>
+					<button data-close type="button" class="popup__close">
+						<img src="img/icons/close.svg" alt="Close">
+					</button>
+				</div>
+				<div class="popup__body">
+					<div class="popup__columns">
+						<div class="popup__column column-popup">
+							<div class="column-popup__title">Description</div>
+							<div class="column-popup__text">
+								<p>A hybrid NFT platform with elements of a social network and the ability to tokenize your own media.</p>
+							</div>
+						</div>
+						<div class="popup__column column-popup">
+							<div class="column-popup__title">Technology</div>
+							<ul class="column-popup__items">
+								<li class="column-popup__item item-column-popup">Java</li>
+								<li class="column-popup__item item-column-popup">Solidity</li>
+								<li class="column-popup__item item-column-popup">NFT</li>
+								<li class="column-popup__item item-column-popup">Vue3</li>
+								<li class="column-popup__item item-column-popup">Html</li>
+								<li class="column-popup__item item-column-popup">Css3</li>
+								<li class="column-popup__item item-column-popup">PostgreSQL</li>
+								<li class="column-popup__item item-column-popup">RabbitMQ</li>
+								<li class="column-popup__item item-column-popup">Redis</li>
+							</ul>
+						</div>
+					</div>
+					<div class="popup__images">
+						<div class="popup__image"><picture><source srcset="img/products/social-nft-platform/01.webp" type="image/webp"><img src="img/products/social-nft-platform/01.png" alt="Image"></picture></div>
+						<div class="popup__image"><picture><source srcset="img/products/social-nft-platform/02.webp" type="image/webp"><img src="img/products/social-nft-platform/02.png" alt="Image"></picture></div>
+						<div class="popup__image"><picture><source srcset="img/products/social-nft-platform/03.webp" type="image/webp"><img src="img/products/social-nft-platform/03.png" alt="Image"></picture></div>
+						<div class="popup__image"><picture><source srcset="img/products/social-nft-platform/04.webp" type="image/webp"><img src="img/products/social-nft-platform/04.png" alt="Image"></picture></div>
+						<div class="popup__image"><picture><source srcset="img/products/social-nft-platform/05.webp" type="image/webp"><img src="img/products/social-nft-platform/05.png" alt="Image"></picture></div>
+						<div class="popup__image"><picture><source srcset="img/products/social-nft-platform/06.webp" type="image/webp"><img src="img/products/social-nft-platform/06.png" alt="Image"></picture></div>
+					</div>
+				</div>
+				<a href="https://t.me/SomChain" target="_blank" class="popup__button button button--arrow ">Discuss your project</a>
+			</div>
+		</div>
+	</div>
+
+	<div id="popup-custom-block-explorer" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<div class="popup__top">
+					<h2 class="popup__title">custom block explorer</h2>
+					<button data-close type="button" class="popup__close">
+						<img src="img/icons/close.svg" alt="Close">
+					</button>
+				</div>
+				<div class="popup__body">
+					<div class="popup__columns">
+						<div class="popup__column column-popup">
+							<div class="column-popup__title">Description</div>
+							<div class="column-popup__text">A typical convenient block explorer that can be easily configured for any cryptocurrency.</div>
+						</div>
+						<div class="popup__column column-popup">
+							<div class="column-popup__title">Technology</div>
+							<ul class="column-popup__items">
+								<li class="column-popup__item item-column-popup">Java</li>
+								<li class="column-popup__item item-column-popup">Vue</li>
+								<li class="column-popup__item item-column-popup">MySQL</li>
+								<li class="column-popup__item item-column-popup">Html</li>
+								<li class="column-popup__item item-column-popup">Css</li>
+								<li class="column-popup__item item-column-popup">RabbitMQ</li>
+								<li class="column-popup__item item-column-popup">Redis</li>
+							</ul>
+						</div>
+					</div>
+					<div class="popup__images">
+						<div class="popup__image"><picture><source srcset="img/products/custom-block-explorer/01.webp" type="image/webp"><img src="img/products/custom-block-explorer/01.jpg" alt="Image"></picture></div>
+						<div class="popup__image"><picture><source srcset="img/products/custom-block-explorer/02.webp" type="image/webp"><img src="img/products/custom-block-explorer/02.jpg" alt="Image"></picture></div>
+						<div class="popup__image"><picture><source srcset="img/products/custom-block-explorer/03.webp" type="image/webp"><img src="img/products/custom-block-explorer/03.jpg" alt="Image"></picture></div>
+						<div class="popup__image"><picture><source srcset="img/products/custom-block-explorer/04.webp" type="image/webp"><img src="img/products/custom-block-explorer/04.jpg" alt="Image"></picture></div>
+						<div class="popup__image"><picture><source srcset="img/products/custom-block-explorer/05.webp" type="image/webp"><img src="img/products/custom-block-explorer/05.jpg" alt="Image"></picture></div>
+					</div>
+				</div>
+				<a href="https://t.me/SomChain" target="_blank" class="popup__button button button--arrow ">Discuss your project</a>
+			</div>
+		</div>
+	</div>
+
+	<div id="popup-forest-nft-game" aria-hidden="true" class="popup">
+		<div class="popup__wrapper">
+			<div class="popup__content">
+				<div class="popup__top">
+					<h2 class="popup__title">forest nft game</h2>
+					<button data-close type="button" class="popup__close">
+						<img src="img/icons/close.svg" alt="Close">
+					</button>
+				</div>
+				<div class="popup__body">
+					<div class="popup__columns">
+						<div class="popup__column column-popup">
+							<div class="column-popup__title">Description</div>
+							<div class="column-popup__text">An interesting NFT game with the opportunity to improve your heroes and receive a reward for this. Great as a spin-off
+								for large product networks.</div>
+						</div>
+						<div class="popup__column column-popup">
+							<div class="column-popup__title">Technology</div>
+							<ul class="column-popup__items">
+								<li class="column-popup__item item-column-popup">Flutter</li>
+								<li class="column-popup__item item-column-popup">Solidity</li>
+							</ul>
+						</div>
+					</div>
+					<div class="popup__images">
+						<div class="popup__image"><picture><source srcset="img/products/forest-nft-game/01.webp" type="image/webp"><img src="img/products/forest-nft-game/01.jpeg" alt="Image"></picture></div>
+						<div class="popup__image"><picture><source srcset="img/products/forest-nft-game/02.webp" type="image/webp"><img src="img/products/forest-nft-game/02.jpeg" alt="Image"></picture></div>
+						<div class="popup__image"><picture><source srcset="img/products/forest-nft-game/03.webp" type="image/webp"><img src="img/products/forest-nft-game/03.jpeg" alt="Image"></picture></div>
+						<div class="popup__image"><picture><source srcset="img/products/forest-nft-game/04.webp" type="image/webp"><img src="img/products/forest-nft-game/04.jpeg" alt="Image"></picture></div>
+						<div class="popup__image"><picture><source srcset="img/products/forest-nft-game/05.webp" type="image/webp"><img src="img/products/forest-nft-game/05.jpeg" alt="Image"></picture></div>
+						<div class="popup__image"><picture><source srcset="img/products/forest-nft-game/06.webp" type="image/webp"><img src="img/products/forest-nft-game/06.jpeg" alt="Image"></picture></div>
+						<div class="popup__image"><picture><source srcset="img/products/forest-nft-game/07.webp" type="image/webp"><img src="img/products/forest-nft-game/07.jpeg" alt="Image"></picture></div>
+					</div>
+				</div>
+				<a href="https://t.me/SomChain" target="_blank" class="popup__button button button--arrow ">Discuss your project</a>
+			</div>
+		</div>
+	</div>
+
+	<script src="js/app.min.js?_v=20240123175028"></script>
 </body>
 
 </html>
